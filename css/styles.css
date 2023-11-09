@@ -1,0 +1,50 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#8df8e6;
+    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+
+
+    background-position: center;
+    /* background-size: contain; */
+}
+.container{
+    margin:30vh 20vw;
+}
+h1{
+    color:#033f36;
+    font-family: 'Josefin Slab', serif;
+}
+.passBox{
+    width:20vw;
+    height: 25px;
+}
+input{
+    height:35px;
+    width:15vw;
+    padding:0 10px;
+    margin-top:30px;
+    color:black;
+    background: #e1e6b6;
+}
+button{
+    padding:10px 10px;
+    margin-top:49px;
+    margin-right:20px;
+    /* border:none; */
+    background: #8df8e6;
+    cursor: pointer;
+    font-size:14px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+
